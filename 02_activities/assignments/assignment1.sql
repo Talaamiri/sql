@@ -91,7 +91,7 @@ order by vendor_name, market_date;
 -- AGGREGATE
 /* 1. Write a query that determines how many times each vendor has rented a booth 
 at the farmer’s market by counting the vendor booth assignments per vendor_id. */
-select vendor_id,count(*) booth_assignment_count from vendor_booth_assignments
+select vendor_id,count(*) booth_assignment_total_count from vendor_booth_assignments
 group by 1;
 
 
