@@ -54,11 +54,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type1: Each time a customer changes their address we can update the records without keeping any history of the previous addresses. 
+Type 2: The changes are inserted to the table as a new record. This approach requires additional columns to the table to distinguish between new and historical records.
 ```
-
-***
-
 ## Section 2:
 You can start this section following *session 4*.
 
